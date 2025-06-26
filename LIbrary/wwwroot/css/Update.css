@@ -1,0 +1,136 @@
+﻿.form-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.libForm {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    padding: 50px;
+    gap: 10px;
+    background-color: rgba(72, 58, 50, 0.733);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.libForm h3 {
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(252, 222, 182);
+}
+
+.libForm p {
+    align-self: center;
+    font-size: 15px;
+    color: rgb(252, 222, 182);
+}
+
+.libForm label {
+    font-size: 17px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.libForm input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.libForm button[type=submit] {
+    width: 120px;
+    align-self: center;
+}
+
+.input-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.selection {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*///////////////*/
+
+.books-list {
+    width: 1170px;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+}
+
+.books-list h3 {
+    color: antiquewhite;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 50px 0px 20px;
+}
+
+.books-list th {
+    background-color: #291d14;
+    border-bottom: 3px solid #a99318;
+    color: antiquewhite;
+    height: 75px;
+    width: 210px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.books-list td {
+    width: 210px;
+    height: 75px;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.books-list td:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.books-list tr {
+    background-color: antiquewhite;
+}
+
+.books-list tr:not(:last-child) {
+    border-bottom: 2px dashed;
+}
+
+table {
+    width: 100%;
+}
+
+.dropdown-center {
+    position: relative;
+}
+
+.books-list .dropdown-center i {
+    font-size: 1.5rem;
+}
+
+table .btn {
+    font-size: 19px;
+    width: unset !important;
+    gap: 10px;
+    font-weight: 100 !important;
+}

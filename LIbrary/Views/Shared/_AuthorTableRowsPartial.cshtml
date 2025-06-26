@@ -1,0 +1,48 @@
+﻿@model List<LIbrary.ViewModels.AuthorListViewModel>
+
+@if (Model != null && Model.Any())
+{
+    @foreach (var author in Model)
+    {
+        <tr>
+            <td>@author.Name</td>
+            <td>@author.Age</td>
+            <td>
+                <div class="dropdown-center">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-search-plus"></i>
+                    </button>
+                    <ul class="flex-grow-1 dropdown-menu">
+                        <li class="dropdown-item" onclick="event.stopPropagation();"><b>Id:</b></li>
+                        <li class="dropdown-item" onclick="event.stopPropagation();">@author.Id</li>
+                        <li class="dropdown-item" onclick="event.stopPropagation();"><b>Books:</b></li>
+                        @if (author.Books != null && author.Books.Any())
+                        {
+                            @foreach (var bookTitle in author.Books)
+                            {
+                                <li class="dropdown-item" onclick="event.stopPropagation();" style="text-align:start">@bookTitle</li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="dropdown-item" onclick="event.stopPropagation();" style="text-align:start">No Books</li>
+                        }
+                    </ul>
+                </div>
+                <div class="dropdown-center">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-h"></i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item ajax-delete-author" href="#" data-author-id="@author.Id">Delete</a>
+                        <a class="dropdown-item" href="/Author/Update?authorId=@author.Id">Update</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    }
+}
+else
+{
+    <tr><td colspan="4">No authors available.</td></tr>
+}

@@ -1,0 +1,48 @@
+﻿.books-list {
+    width: 1170px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.books-list th {
+    background-color: #291d14;
+    border-bottom: 3px solid #a99318;
+    color: antiquewhite;
+    height: 75px;
+    width: 210px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.books-list td {
+    width: 210px;
+    height: 75px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.books-list td:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.books-list tr:not(:last-child) {
+    border-bottom: 2px dashed;
+}
+
+table {
+    width: 100%;
+}
+
+.dropdown-center {
+    position: relative;
+}
+
+.books-list .dropdown-center i {
+    font-size: 1.5rem;
+}
+
+.query-box .btn {
+    margin: 20px 0px;
+}

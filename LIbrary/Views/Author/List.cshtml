@@ -1,0 +1,41 @@
+﻿@using LIbrary.Services
+@model List<LIbrary.ViewModels.AuthorListViewModel>
+
+@{
+    ViewData["Title"] = "List of Authors";
+}
+
+@section Styles {
+    <link href="~/css/List.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="container container-fluid">
+    <div class="query-box">
+        <form id="searchForm" class="findForm">
+            <input placeholder="Enter author name or Id" type="text" class="form-control" name="userInput" id="searchInput"/>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div id="searchMessage" class="mt-2"></div>
+    </div>
+    <div class="books-list">
+        <table class="">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody id="authorsTableBody">
+                @await Html.PartialAsync("_AuthorTableRowsPartial", Model)
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const searchUrl = '@Url.Action("SearchAuthorsAjax", "Author")';
+    </script>
+    <script src="~/js/AuthorList.js"></script>
+}

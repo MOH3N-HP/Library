@@ -1,0 +1,554 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\user\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\user\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\wwwroot\\css\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\wwwroot\\css\\user.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\services\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\services\\authenticationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\command\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\command\\operations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\author\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\author\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\author\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\author\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\wwwroot\\css\\add.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\wwwroot\\css\\add.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\services\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\services\\authorservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\command\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\command\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\author\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\author\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\wwwroot\\js\\authorlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\wwwroot\\js\\authorlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\wwwroot\\js\\booklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\wwwroot\\js\\booklist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\book\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\book\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\shared\\_authortablerowspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\shared\\_authortablerowspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\shared\\_booktablerowspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\shared\\_booktablerowspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\services\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\services\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\viewmodels\\authorlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\viewmodels\\authorlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\viewmodels\\booklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\viewmodels\\booklistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|c:\\users\\amirmuhammad nateghi\\desktop\\c#\\library\\library\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDA3AEFE-F5E7-46D3-B000-4BECC6009373}|LIbrary\\LIbrary.csproj|solutionrelative:library\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.css",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\css\\User.css",
+              "RelativeDocumentMoniker": "LIbrary\\wwwroot\\css\\User.css",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\css\\User.css",
+              "RelativeToolTip": "LIbrary\\wwwroot\\css\\User.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-29T13:46:50.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\User\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\User\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\User\\SignIn.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\User\\SignIn.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T13:45:10.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T13:44:47.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LIbrary\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:44:16.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Models\\User.cs",
+              "RelativeToolTip": "LIbrary\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:11:56.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Operations.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Command\\Operations.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Command\\Operations.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Command\\Operations.cs",
+              "RelativeToolTip": "LIbrary\\Command\\Operations.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:29:16.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationServices.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Services\\AuthenticationServices.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Services\\AuthenticationServices.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Services\\AuthenticationServices.cs",
+              "RelativeToolTip": "LIbrary\\Services\\AuthenticationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:23:13.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvysAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T14:45:40.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Author\\Update.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Author\\Update.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Author\\Update.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Author\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-29T14:05:54.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LIbrary\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:06:51.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LIbrary\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LIbrary\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAADEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-29T14:52:24.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LIbrary\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T16:39:17.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Program.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Program.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Program.cs",
+              "RelativeToolTip": "LIbrary\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T14:39:13.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Add.css",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\css\\Add.css",
+              "RelativeDocumentMoniker": "LIbrary\\wwwroot\\css\\Add.css",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\css\\Add.css",
+              "RelativeToolTip": "LIbrary\\wwwroot\\css\\Add.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-29T13:46:54.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthorServices.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Services\\AuthorServices.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Services\\AuthorServices.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Services\\AuthorServices.cs",
+              "RelativeToolTip": "LIbrary\\Services\\AuthorServices.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwKUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:21:09.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "LIbrary\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:20:59.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_AuthorTableRowsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Shared\\_AuthorTableRowsPartial.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Shared\\_AuthorTableRowsPartial.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Shared\\_AuthorTableRowsPartial.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Shared\\_AuthorTableRowsPartial.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwCQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T16:43:17.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Author\\Add.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Author\\Add.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Author\\Add.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Author\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T17:50:58.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BookList.js",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\js\\BookList.js",
+              "RelativeDocumentMoniker": "LIbrary\\wwwroot\\js\\BookList.js",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\js\\BookList.js",
+              "RelativeToolTip": "LIbrary\\wwwroot\\js\\BookList.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-28T17:39:22.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Author\\List.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Author\\List.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Author\\List.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Author\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T15:57:56.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthorList.js",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\js\\AuthorList.js",
+              "RelativeDocumentMoniker": "LIbrary\\wwwroot\\js\\AuthorList.js",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\wwwroot\\js\\AuthorList.js",
+              "RelativeToolTip": "LIbrary\\wwwroot\\js\\AuthorList.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBZwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-28T17:39:15.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_BookTableRowsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Shared\\_BookTableRowsPartial.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Shared\\_BookTableRowsPartial.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Shared\\_BookTableRowsPartial.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Shared\\_BookTableRowsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T17:18:07.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Commands.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Command\\Commands.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Command\\Commands.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Command\\Commands.cs",
+              "RelativeToolTip": "LIbrary\\Command\\Commands.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:30:44.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Models\\Book.cs",
+              "RelativeToolTip": "LIbrary\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T13:12:39.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Models\\Author.cs",
+              "RelativeToolTip": "LIbrary\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:20:46.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BookServices.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Services\\BookServices.cs",
+              "RelativeDocumentMoniker": "LIbrary\\Services\\BookServices.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Services\\BookServices.cs",
+              "RelativeToolTip": "LIbrary\\Services\\BookServices.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAswLcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T16:59:59.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Book\\List.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Book\\List.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Book\\List.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Book\\List.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBZwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:43:25.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AuthorListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\ViewModels\\AuthorListViewModel.cs",
+              "RelativeDocumentMoniker": "LIbrary\\ViewModels\\AuthorListViewModel.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\ViewModels\\AuthorListViewModel.cs",
+              "RelativeToolTip": "LIbrary\\ViewModels\\AuthorListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:19:46.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Book\\Add.cshtml",
+              "RelativeDocumentMoniker": "LIbrary\\Views\\Book\\Add.cshtml",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\Views\\Book\\Add.cshtml",
+              "RelativeToolTip": "LIbrary\\Views\\Book\\Add.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T16:09:12.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BookListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\ViewModels\\BookListViewModel.cs",
+              "RelativeDocumentMoniker": "LIbrary\\ViewModels\\BookListViewModel.cs",
+              "ToolTip": "C:\\Users\\AmirMuhammad Nateghi\\Desktop\\C#\\LIbrary\\LIbrary\\ViewModels\\BookListViewModel.cs",
+              "RelativeToolTip": "LIbrary\\ViewModels\\BookListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:22:14.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

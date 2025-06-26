@@ -1,0 +1,42 @@
+﻿@using LIbrary.Services
+@model List<LIbrary.ViewModels.BookListViewModel>
+
+@{
+    ViewData["Title"] = "List of Books";
+}
+
+@section Styles {
+    <link href="~/css/List.css" rel="stylesheet" type="text/css" />
+}
+<div class="container container-fluid">
+    <div class="query-box">
+        <form id="searchForm" class="findForm">
+            <input placeholder="Enter book title or book Id" type="text" class="form-control" name="userInput" id="searchInput" />
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div id="searchMessage" class="mt-2"></div>
+    </div>
+
+    <div class="books-list">
+        <table class="">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Library Id</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody id="booksTableBody">
+                @await Html.PartialAsync("_BookTableRowsPartial", Model)
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        const searchUrl = '@Url.Action("SearchBooksAjax", "Book")';
+    </script>
+    <script src="~/js/BookList.js"></script>
+}

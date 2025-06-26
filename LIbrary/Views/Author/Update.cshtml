@@ -1,0 +1,69 @@
+﻿@using LIbrary.Services
+@model LIbrary.ViewModels.UpdateViewModel
+@{
+    ViewData["Title"] = "Update Author";
+}
+
+@section Styles {
+<link href="~/css/Update.css" rel="stylesheet" type="text/css"/>
+}
+
+
+<div class="container">
+    <div class="form-container">
+        <form action="Update" method="post" class="libForm">
+            <h3>Enter the fields</h3>
+            <div class="input-container">
+                <input type="hidden" class="form-control" name="Id" value="@Model.Id" />
+                <div class="form-group">
+                    <label for="textName">Name: </label>
+                    <input type="text" class="form-control" name="Name" id="textName" value="@Model.Author.Name"/>
+                </div>
+                <div class="form-group">
+                    <label for="textAge">Age: </label>
+                    <input type="number" class="form-control" name="Age" id="textAge" value="@Model.Author.Age"/>
+                </div>
+                <div class="form-group">
+                    <label for="Book">Book: </label>
+                    <input list="books" name="BookName" id="Book" class="selection" >
+                    <datalist id="books">
+                        @foreach(var book in Model.AllBooks)
+                        {
+                            if (!Model.ThisBooks.Any(a => a.Id == book.Id))
+                            {
+                                <option value="@book.Title"></option>
+                            }
+                        }
+                    </datalist>
+                </div>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="books-list">
+        <h3>List of Books: </h3>
+        <table class="">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Library Id</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model.ThisBooks)
+                {
+                    <tr>
+                        <td>@book.Title</td>
+                        <td>@book.Description</td>
+                        <td>@await LibraryServices.GetLibraryName(book.LibraryId)</td>
+                        <td>
+                            <a class="btn" href="/Author/RemoveBook?AuthorId=@Model.Author.Id&amp;bookId=@book.Id"><i class="fa fa-close"></i> Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

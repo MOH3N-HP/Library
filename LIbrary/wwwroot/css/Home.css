@@ -1,0 +1,33 @@
+﻿.main-txt {
+    width: 600px;
+    margin-top: 4rem;
+}
+
+.main-txt h1 {
+    font-size: 5rem;
+}
+
+.main-txt h1, p{
+    color: antiquewhite;
+    font-weight: 400;
+}
+
+p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.main-txt .btn {
+    height: 50px;
+    text-align: center;
+}
+
+.main-txt .btn:nth-child(2) {
+    width: 170px !important;
+}
+
+.main-txt .btn-container {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+}

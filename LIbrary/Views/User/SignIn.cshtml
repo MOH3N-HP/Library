@@ -1,0 +1,36 @@
+﻿@model LIbrary.Models.User;
+@{
+    ViewData["Title"] = "Sign Up User";
+}
+@section Styles {
+    <link href="~/css/User.css" rel="stylesheet" type="text/css" />
+}
+
+
+
+<div class="container">
+    <div class="form-container">
+        <form action="SignIn" class="libForm" method="post">
+            <p>Enter Your Information:</p>
+            <div class="form-gruop">
+                <label asp-for="UserName">UserName: </label>
+                <input type="text" name="UserName" class="form-control" >
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-gruop">
+                <label asp-for="Password">Password: </label>
+                <input type="password" name="Password" class="form-control" >
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <span asp-validation-for="Id" class="text-danger"></span>
+
+            <div class="other-option">
+                <p>Don't have an account?</p>
+                <a asp-area="" asp-controller="User" asp-action="Register">Register</a>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</div>
+

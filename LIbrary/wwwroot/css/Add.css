@@ -1,0 +1,56 @@
+﻿.form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+}
+
+.libForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 50px;
+    gap: 10px;
+    background-color: rgba(72, 58, 50, 0.733);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.libForm p {
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(252, 222, 182);
+}
+
+.libForm label {
+    font-size: 17px;
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.libForm input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.libForm button[type=submit] {
+    width: 120px;
+    align-self: center;
+}
+
+.selection {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}

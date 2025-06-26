@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Library</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LIbrary.styles.css" asp-append-version="true" />
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container container-fluid">
+                <a class="title navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="/img/download.svg" class="header-icon"/>
+                    <p>Centeral Library</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="options">
+                    <div class="dropdown-center">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="~/img/user-icon.svg" class="header-user-icon"/>
+                        </button>
+                        <ul class="flex-grow-1 dropdown-menu">
+                            @if (User.Identity.IsAuthenticated) {
+                                <li class="dropdown-item">
+                                    <div class="welcome-popup">
+                                        <p>Welcome @User.Identity.Name!</p>
+                                        <a class="btn" asp-area="" asp-controller="User" asp-action="Logout">Log Out</a>
+                                    </div>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="dropdown-item">
+                                    <a class="btn" asp-area="" asp-controller="User" asp-action="Register">Register</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="btn" asp-area="" asp-controller="User" asp-action="SignIn">Sign In</a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="dropdown-center">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <ul class="flex-grow-1 dropdown-menu">
+                            <li class="dropdown-item">
+                                <a class="btn" asp-area="" asp-controller="Home" asp-action="AddBook">Add Book</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="btn" asp-area="" asp-controller="Home" asp-action="AddAuthor">Add Author</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <main role="main" class="pb-3">
+            @RenderBody()
+            <div class="wrapper"></div>
+        </main>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - Library - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/084ddfc8f4.js" crossorigin="anonymous"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

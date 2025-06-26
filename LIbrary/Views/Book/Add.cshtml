@@ -1,0 +1,51 @@
+﻿@model LIbrary.ViewModels.AddViewModel
+
+@{
+    ViewData["Title"] = "Create Book";
+}
+@section Styles{
+    <link href="~/css/Add.css" rel="stylesheet" type="text/css"/>
+}
+
+
+
+<div class="container">
+    <div class="form-container">
+        <form action="Add" class="libForm" method="post">
+            <p>Enter Book Details</p>
+            <div class="form-group">
+                <label asp-for="Book.Title">Title: </label>
+                <input type="text" asp-for="Book.Title" class="form-control">
+                <span asp-validation-for="Book.Title" class="text-danger"></span>
+            </div>
+            <div class="form-gruop">
+                <label asp-for="Book.Description">Description: </label>
+                <input type="text" asp-for="Book.Description" class="form-control">
+                <span asp-validation-for="Book.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="Author">Author: </label>
+                <input list="authors" name="AuthorName" id="Author" class="selection">
+                <datalist id="authors">
+                    @foreach (var author in Model.Authors)
+                    {
+                        <option value="@author.Name">@author.Name</option>
+                    }
+                </datalist>                
+            </div>
+            <div class="form-group">
+                <label for="Library">Library: </label>
+                <input list="libraries" name="LibraryName" id="Library" class="selection">
+                <datalist id="libraries">
+                    @foreach (var library in Model.Librarys)
+                    {
+                        <option value="@library.Name">@library.Name</option>
+                    }
+                </datalist>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</div>
+
